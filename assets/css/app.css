@@ -38,3 +38,21 @@
 	display: block;
 	font-size: 1.8em;
 }
+/* Login */
+.social-box{
+  margin: 0 auto;
+  padding: 38px;
+  border-bottom:1px #ccc solid;
+}
+.social-box a{
+  font-weight:bold;
+  font-size:18px;
+  padding:8px;
+}
+.social-box a i{
+  font-weight:bold;
+  font-size:20px;
+}
+.mg-btm {
+margin: 0 0 15px 0;
+}
