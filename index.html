@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html ng-app="App">
+    <head>
+        <title>Pega Contatos</title>
+        <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:300,400' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+
+        <!-- styles -->
+	    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	    <!-- custom styles -->
+	    <link rel="stylesheet" type="text/css" href="assets/css/app.css">
+
+    </head>
+
+    <body>
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-8 col-md-offset-2">
+    				
+    				<h1>Avail Much</h1>
+    				<ng-view></ng-view>
+
+    			</div>
+    		</div>
+    	</div> <!-- /container -->
+
+        <!-- scripts -->
+	    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <script type="text/javascript" src="assets/bower/angular/angular.js"></script>
+        <script type="text/javascript" src="assets/bower/angular-route/angular-route.min.js"></script>
+        <script type="text/javascript" src="assets/bower/angular-facebook/lib/angular-facebook.js"></script>
+
+        <script type="text/javascript" src="app/app.js"></script>
+        <script type="text/javascript" src="app/config/config.js"></script>
+        <script type="text/javascript" src="app/routes/customerRoutes.js"></script>
+        <script type="text/javascript" src="app/controllers/customerController.js"></script>
+        <script type="text/javascript" src="app/services/customerFactory.js"></script>
+    </body>
+</html>
