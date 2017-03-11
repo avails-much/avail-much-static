@@ -1,29 +1,34 @@
 App.config(function ($routeProvider) {
   $routeProvider
-    .when('/', 
+    .when('/',
       {
         templateUrl: 'app/templates/ListRequests.html'
       }
     )
-    .when('/create-request', 
+    .when('/create-request',
       {
         templateUrl: 'app/templates/CreateRequest.html'
       }
     )
-    .when('/journal', 
+    .when('/journal',
       {
         templateUrl: 'app/templates/Journal.html'
       }
     )
-    .when('/groups', 
+    .when('/groups',
       {
         templateUrl: 'app/templates/ListGroups.html'
       }
     )
-     .when('/login', 
+    .when('/login',
       {
         templateUrl: 'app/templates/Login.html'
       }
     )
+    .when('/settings',
+     {
+       templateUrl: 'app/templates/Settings.html'
+     }
+   )
     .otherwise( { redirectTo: '/' } );
 });
