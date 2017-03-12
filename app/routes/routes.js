@@ -30,6 +30,11 @@ App.config(function ($routeProvider) {
        templateUrl: 'app/templates/Settings.html'
      }
    )
+    .when('/request',
+     {
+       templateUrl: 'app/templates/CreateRequest.html'
+     }
+   )
     .otherwise( { redirectTo: '/' } );
 }).
   controller('routeController', ['$scope', '$location', function($scope, $location) {
