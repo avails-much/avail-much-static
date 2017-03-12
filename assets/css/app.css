@@ -38,6 +38,10 @@
 	display: block;
 	font-size: 1.8em;
 }
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #D4DFE6;
+    background-color: transparent;
+}
 
 /* Float Request Button */
 .container-float-btn {
@@ -156,4 +160,8 @@
 }
 .mg-btm {
 margin: 0 0 15px 0;
+}
+
+.navbar-default {
+    background-color: #6daee0;
 }
