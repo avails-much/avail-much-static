@@ -113,8 +113,8 @@
 .buttons-float:nth-last-child(1) {
   -webkit-transition-delay: 25ms;
           transition-delay: 25ms;
-  background-image: url('http://cbwconline.com/IMG/Share.svg');
-  background-size: contain;
+  background-image: url('../img/button@2x.png');
+  background-size: cover;
 }
 
 .buttons-float:not(:last-child):nth-last-child(2) {

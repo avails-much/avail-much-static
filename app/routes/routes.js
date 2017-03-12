@@ -31,4 +31,7 @@ App.config(function ($routeProvider) {
      }
    )
     .otherwise( { redirectTo: '/' } );
-});
+}).
+  controller('routeController', ['$scope', '$location', function($scope, $location) {
+    $scope.hideNav = $location.path() === '/login';
+  }]);
